@@ -1,7 +1,7 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
 
-const clients = ['client-a', 'client-b'];
+const clients = ['client-a', 'client-b', 'client-c'];
 
 console.log('开始执行多客户构建任务...');
 

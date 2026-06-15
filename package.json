@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "build:client-a": "cross-env VITE_CLIENT_ID=client-a vite build --mode client-a",
     "build:client-b": "cross-env VITE_CLIENT_ID=client-b vite build --mode client-b",
+    "build:client-c": "cross-env VITE_CLIENT_ID=client-c vite build --mode client-c",
     "build:all": "node scripts/build-all.js",
     "preview": "vite preview"
   },
